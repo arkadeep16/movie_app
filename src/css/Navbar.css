@@ -11,6 +11,9 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
+  .navbar-brand:hover {
+   color: #ff4757 !important;
+  }
   
   .navbar-links {
     display: flex;
@@ -25,7 +28,7 @@
   }
   
   .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #ff4757
   }
   
   @media (max-width: 768px) {
